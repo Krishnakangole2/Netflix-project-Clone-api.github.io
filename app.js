@@ -38,9 +38,11 @@ changemood.addEventListener("click", () => {
   if (currmod === "light") {
     currmod = "drak";
     document.querySelector("body").style.backgroundColor = "black";
+    document.querySelector("body").style.color = "#fff";
   } else {
     currmod = "light";
     document.querySelector("body").style.backgroundColor = "white";
+    document.querySelector("body").style.color = "#222";
   }
 });
 
